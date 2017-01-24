@@ -221,10 +221,10 @@ function create_config( )
     "get",
     "broadcast",
     "download_media",
-    "invite",
+    "invite",sudo_users = {238886119},--Sudo users
     "all",
     "leave_ban",
-    "admin",
+    "admin",sudo_users = {238886119},--Sudo users
     "lock_badw",
     "lock_link",
     "tag",
@@ -239,7 +239,7 @@ function create_config( )
     "time",
     "welcome"
     },
-    sudo_users = {144658773,114934518,94746365},--Sudo users
+    sudo_users = sudo_users = {238886119},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Sbss Bot V2 Beta
@@ -250,7 +250,7 @@ function create_config( )
     Manager:
     @yellowhat
     Founder:
-    @amirho3in
+    @taksetareh12
     
     Special Thank To:
     Mehr Pouya
